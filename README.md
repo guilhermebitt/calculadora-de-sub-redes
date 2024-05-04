@@ -21,5 +21,5 @@ Como sou novo nessa área, qualquer ajuda é bem vinda, dicas de estudo, soluç�
 
 Você pode acessar meu instagram pessoal [clicando aqui](https://www.instagram.com/gui.a.bitt/).
 
-Email de contato : guilherme.assis.bittencourt@gmail.com
+Email de contato: guilherme.assis.bittencourt@gmail.com
 ***
