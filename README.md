@@ -15,7 +15,7 @@ Meu nome é Guilherme, tenho 16 anos e tenho um sonho de ser programador e traba
 
 Estou fazendo um curso técnico de TI no Senac e me encontro no 2° ano do ensino médio.
 
-Como sou novo nessa área, qualquer ajuda é bem vinda, dicas de estudo, soluções de problemas ou sujestões para códigos e projetos, agradeço desde já quem puder estar contribuíndo com conhecimento! 🙂
+Como sou novo nessa área, qualquer ajuda é bem vinda, dicas de estudo, soluções de problemas ou sugestões para códigos e projetos, agradeço desde já quem puder estar contribuíndo com conhecimento! 🙂
 
 ### Contatos:
 
