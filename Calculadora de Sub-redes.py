@@ -41,31 +41,26 @@ while True:
     # Verificação de Classe:
     if cRede == 'C':
         while x != 0:
-            ips.append(256 - (x * e_ip))
-            eRede[3] = int(ips[sRede - x])
+            eRede[3] = int(256 - e_ip)
             rede.insert(sRede - x, (str(eRede)))
             x = x - 1
         dec_mask = ('255.255.255.{}'.format(eRede[3]))
         bin_mask = ('11111111.11111111.11111111.{}'.format(Binary(eRede[3])))
         CIDR = bin_mask.count('1')
-        q_ip = (256 / sRede)
 
     if cRede == 'B':
         while x != 0:
-            ips.append(256 - (x * e_ip))
-            eRede[2] = int(ips[sRede - x])
+            eRede[2] = int(256 - e_ip)
             eRede[3] = 0
             rede.insert(sRede - x, (str(eRede)))
             x = x - 1
         dec_mask = ('255.255.{}.0'.format(eRede[2]))
         bin_mask = ('11111111.11111111.{}.00000000'.format(Binary(eRede[2])))
         CIDR = bin_mask.count('1')
-        q_ip = (65538 / sRede)
 
     if cRede == 'A':
         while x != 0:
-            ips.append(256 - (x * e_ip))
-            eRede[1] = int(ips[sRede - x])
+            eRede[1] = int(256 - e_ip)
             eRede[2] = 0
             eRede[3] = 0
             rede.insert(sRede - x, (str(eRede)))
@@ -73,12 +68,9 @@ while True:
         dec_mask = ('255.{}.0.0'.format(eRede[1]))
         bin_mask = ('11111111.{}.00000000.00000000'.format(Binary(eRede[1])))
         CIDR = bin_mask.count('1')
-        q_ip = (16777216 / sRede)
-
-    h_ip = q_ip - 2
 
     # Resposta:
     print('\nIp inserido em binário: {}'.format(bin_eRede))
-    print('Existem {} IPs disponíveis em cada sub-rede, sendo {} o número de hosts.\n'.format(int(q_ip), int(h_ip)))
+    print('Existem {} IPs disponíveis em cada sub-rede, sendo {} o número de hosts.\n'.format(int(e_ip), int(e_ip - 2)))
     print('MÁSCARA:\nDecimal: {}\nBinário: {}\nCIDR: /{}'.format(dec_mask, bin_mask, CIDR))
     print('=-'*20)
