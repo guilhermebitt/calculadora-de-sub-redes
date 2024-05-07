@@ -22,26 +22,26 @@ while True:
         e_ip = int(256 / sRede)
     elif (eRede[0] == 172 and eRede[1] > 15) or (eRede[0] > 172 and eRede[0] < 192):
         cRede = 'B'
-        e_ip = int(256 / sRede)
+        e_ip = int(65538 / sRede)
         if sRede > 256:
             cRede = 'C'
-            e_ip = int(65538 / sRede)
+            e_ip = int(256 / sRede)
     elif (eRede[0] == 172 and eRede[1] < 16) or (eRede[0] < 172):
         cRede = 'A'
-        e_ip = int(256 / sRede)
+        e_ip = int(16777216 / sRede)
         if sRede > 256:
             cRede = 'B'
             e_ip = int(65538 / sRede)
         if sRede > 65538:
             cRede = 'C'
-            e_ip = int(16777216 / sRede)
+            e_ip = int(256 / sRede)
 
     bin_eRede = ('{}.{}.{}.{}'.format(Binary(eRede[0]), Binary(eRede[1]), Binary(eRede[2]), Binary(eRede[3])))
 
     # Verificação de Classe:
     if cRede == 'C':
         while x != 0:
-            eRede[3] = int(256 - e_ip)
+            eRede[3] = int(256 - (256 / sRede))
             rede.insert(sRede - x, (str(eRede)))
             x = x - 1
         dec_mask = ('255.255.255.{}'.format(eRede[3]))
@@ -50,7 +50,7 @@ while True:
 
     if cRede == 'B':
         while x != 0:
-            eRede[2] = int(256 - e_ip)
+            eRede[2] = int(256 - (256 / sRede))
             eRede[3] = 0
             rede.insert(sRede - x, (str(eRede)))
             x = x - 1
@@ -60,7 +60,7 @@ while True:
 
     if cRede == 'A':
         while x != 0:
-            eRede[1] = int(256 - e_ip)
+            eRede[1] = int(256 - (256 / sRede))
             eRede[2] = 0
             eRede[3] = 0
             rede.insert(sRede - x, (str(eRede)))
