@@ -25,7 +25,7 @@ while True:
         e_ip = int(65538 / sRede)
         if sRede > 256:
             cRede = 'C'
-            e_ip = int(256 / sRede)
+            e_ip = int(65538 / sRede)
     elif (eRede[0] == 172 and eRede[1] < 16) or (eRede[0] < 172):
         cRede = 'A'
         e_ip = int(16777216 / sRede)
