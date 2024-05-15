@@ -11,7 +11,7 @@ Criar um código capaz de calcular e separar uma rede em sub-redes, independente
 Meu objetivo final com esse projeto é poder criar uma calculadora com interface gráfica e que apresente outras funcionalidades.
 ***
 ## Um pouco sobre mim
-Meu nome é Guilherme, tenho 16 anos e tenho um sonho de ser programador e trabalhar nessa área. 😉
+Meu nome é Guilherme, tenho 17 anos e tenho um sonho de ser programador e trabalhar nessa área. 😉
 
 Estou fazendo um curso técnico de TI no Senac e me encontro no 2° ano do ensino médio.
 
