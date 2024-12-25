@@ -3,7 +3,7 @@
 ## Motivo
 O motivo dessa atividade foi desenvolver uma calculadora de sub-redes, já que estávamos entrando na área de redes. Decidi fazer em python para poder aprimorar meus conhecimentos nessa linguagem 👍
 
-Além disso, quero continuar com esse projeto mais do que foi pedido, aprimolá-lo conforme for aprendendo tecnicas novas e chegar em um resultado agradável. Com isso espero poder aplicar o que eu for aprendendo em prática e observar minha evolução progressivamente.
+Além disso, quero continuar com esse projeto mais do que foi pedido, aprimorá-lo conforme for aprendendo tecnicas novas e chegar em um resultado agradável. Com isso espero poder aplicar o que eu for aprendendo em prática e observar minha evolução progressivamente.
 
 ## Objetivos
 Criar um código capaz de calcular e separar uma rede em sub-redes, independente de sua classe, privada ou pública, e sua máscara.
